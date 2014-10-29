@@ -17,3 +17,5 @@ Route::get('/', function()
 });
 
 Route::get('test', function(){ echo "Dev Branch"; });
+
+Route::get('merging', function(){ echo "Dev Branch Merging"; });
